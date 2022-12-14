@@ -4,5 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <title> Mini-Project1</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
+
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li id="item-1">Github</li>
+            <li id="item-2">Portfolio</li>
+            <li id="item-3">Contact</li>
+          </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Mini-Project1</h2>
+        <p>This is mini-project1</p>
+        <h2>coming soon</h2>
+        </section>
+    
+    <section>
+        <h3>Contact me</h3>
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                <label for="Name" class="fcf-label">Name</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                </div>
+            <div class="fcf-form-group">
+                <label for="Email" class="fcf-label"> Email</label>
+                <div class="fcf-input-group">
+                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                </div>
+            </div>
+            <div class="fcf-form-group">
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+            </div>
+    </section>
+</body>
 </html>

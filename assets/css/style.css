@@ -1,0 +1,18 @@
+header {
+    width: 100%;
+    background-color: green;
+}
+
+
+ul{
+    text-align: right;
+    color: white;
+    font-family: sans-serif;
+}
+/* List items in navigation bar */
+li {
+    /* TODO: Add your code here */
+    display: inline;
+    list-style-type: none;
+    font-size: 20px;
+}
